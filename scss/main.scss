@@ -399,7 +399,8 @@ img {
   background: $main-color;
   color: #fff;
   .container {
-    text-align: center;
+    display: grid;
+    place-items: center;
     p {
       font-size: 5rem;
       font-weight: 900;
